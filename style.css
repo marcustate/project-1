@@ -1,0 +1,63 @@
+.recipe {
+    border-bottom: 1px solid #a0aec0 !important;
+    border-radius: 8px;
+    margin-right: 2px;
+    opacity: 0.6;
+    /* color: white; */
+}
+
+.recipe:hover {
+    opacity: 1.0;
+}
+
+body {
+    background-image: url("./assets/default-image.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.font {
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+.Recipes {
+    max-height: 50em;
+    margin-bottom: 10px;
+    overflow-y:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+#recipe-description {
+    color: white;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#recipe-name {
+    background: radial-gradient(#4a5568, black);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: x-large;
+    color:  #319795;
+}
+
+.list-group {
+    background-color: whitesmoke !important;
+    border-radius: 8px;
+}
+
+#nutrients {
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 8px;
+}
+
+.nutrient-header {
+    font-size: larger;
+}
